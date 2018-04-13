@@ -1,0 +1,115 @@
+.App-header input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 2px solid #FFF;
+}
+
+.App-header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0 10px 10px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px solid #0066FF;
+    
+}
+
+.App-header button:hover {
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+}
+
+.theList{
+    list-style: none;
+    padding-left: 0;
+    width: 300px;
+}
+
+.theList li{
+    display: block;
+    color: #333;
+    background-color: rgba(255,255,255, 0.4);
+    padding: 15px;
+    padding-right: 60px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    position: relative;
+
+    
+    transition: background-color .2s ease-out;
+}
+
+
+.theList li:hover{
+    background-color: rgba(255,255,255, 0.6);
+   
+
+}
+
+.theList li:hover .delete{
+    display: block;
+}
+
+.delete{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: initial;
+    position: absolute;
+    right: 5px;
+    top: 10%;
+    display: none;
+
+}
+
+.delete:hover{
+    cursor: pointer;
+    
+}
+
+.delete:hover i{
+    color: rgba(253, 63, 63, 0.8) !important;
+    
+}
+
+.delete:focus{
+    outline: none;
+}
+
+.theList li:hover .done{
+    display: block;
+}
+
+.done{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: initial;
+    position: absolute;
+    right: 35px;
+    top: 10%;
+    display: none;
+
+}
+
+.done:hover{
+    cursor: pointer;
+    
+}
+
+.done:hover i{
+    color: rgba(160, 253, 63, 0.8) !important;
+    
+}
+
+.done:focus{
+    outline: none;
+}
+
+
+ul.thelist{
+    padding: 0;
+}
